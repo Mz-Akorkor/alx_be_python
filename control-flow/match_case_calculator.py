@@ -25,8 +25,3 @@ match operation:
         else:
             print("Cannot divide by zero.")
 
-        # try:
-        #     division = num1 / num2
-        #     print(f"The result is {division}")
-        # except ZeroDivisionError:
-        #     print("Cannot divide by zero.")
