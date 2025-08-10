@@ -26,6 +26,7 @@ class Library:
     def __init__(self) -> None:
         self.book = Book
         self.books: list[Book] = []
+        self.books = []
 
     def add_book(self, book):
         self.books.append(book)
