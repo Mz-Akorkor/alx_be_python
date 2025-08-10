@@ -1,6 +1,6 @@
 class Book:
     def __init__(self, title, author):
-        self.tile = title
+        self.title = title
         self.author = author
 
     def __str__(self):
@@ -26,7 +26,6 @@ class Library:
     def __init__(self) -> None:
         self.book = Book
         self.books: list[Book] = []
-        self.books = []
 
     def add_book(self, book):
         self.books.append(book)
